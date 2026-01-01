@@ -18,7 +18,9 @@ Uses MongoDB for persistence
 Local product images served via React
 
 # 🗂 Project Structure
-text
+
+
+```bash
 ECOMMERCEAPP/
 ├── Backend/
 │   ├── controllers/
@@ -39,13 +41,16 @@ ECOMMERCEAPP/
 │   └── ...
 ├── .gitignore                   # Ignore .env/node_modules
 ├── README.md
-
+``` 
 # ⚡ Getting Started
 1. Clone & Install
+
+```bash
 
 git clone https://github.com/YOUR_USERNAME/ECOMMERCEAPP.git
 
 cd ECOMMERCEAPP
+```
 
 2. Set Environment Variables
  
@@ -55,6 +60,8 @@ Fill in your own MongoDB URI (backend) and API URL (frontend).
 
 3. Install Dependencies
 
+```bash
+
 cd Backend
 
 npm install
@@ -62,6 +69,7 @@ npm install
 cd ../frontend
 
 npm install
+```
 
 4. Seed Products
 
@@ -71,10 +79,13 @@ Place matching jpg images in frontend/src/images/.
 
 5. Run Servers
 
+```bash
+
 Backend :: cd Backend and npm start
 
 
 Frontend ::cd frontend and npm start
+```
 
 
 App runs at http://localhost:3000.
